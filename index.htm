@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Survey Form</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">GreenWarriors Survey Form</h1>
+        <p id="description">Thanks for taking your time to fill this form</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name here" size="20" required><br>
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email id here" size="20" required><br>
+            <label for="age" id="number-label">Age</label><br>
+            <input type="number" id="number" name="age" min="17" max="25" placeholder="Enter your age here"><br>
+            <label for="role">Select your department</label><br>
+            <select name="role" id="dropdown" placeholder="Select one">
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="mech">Mech</option>
+                <option value="mba">MBA</option>
+            </select><br><br>
+            <label for="gender">Select your gender</label><br>
+            <div>
+                <input type="radio" id="gender" name="gender" value="male"><label for="gender">Male</label><br>
+                <input type="radio" id="gender" name="gender" value="female"><label for="gender">Female</label><br>
+            </div>
+            <label for="works">What do you think we did good?</label>
+            <div>
+                <input type="checkbox" id="works" name="works" value="clean"><label for="works">Maintaining our college campus clean</label><br>
+                <input type="checkbox" id="works" name="works" value="kalam-vanam"><label for="works">Our efforts in maintaining Kalam Vanam</label><br>
+                <input type="checkbox" id="works" name="works" value="tree-per-house"><label for="works">A tree for a house event and Corona awareness</label><br><br>
+            </div>
+            <div>
+                <label>What can we do next?</label><br>
+                <textarea rows="10" cols="40"></textarea>
+            </div>
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

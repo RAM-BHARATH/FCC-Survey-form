@@ -1,0 +1,85 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: 18px;
+    /* background: url(); */
+}
+body{
+    margin:0 0;
+    padding:0;
+    background-color: aquamarine;
+/*     background:url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); */
+    display: grid;
+}
+header{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5%;
+    width: 90%;
+    min-width:250px; 
+    display: flex;
+    flex-direction: column;
+}
+header p{
+    margin: 0 auto;
+    padding:0;
+    /* text-align: start; */
+    width: 100%;
+}
+main form{
+    /* text-align: center; */
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+/*     min-width: 380px; */
+}
+main form input,main form label{
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+/* .radiogroup{
+    /* display: flex; */
+/* } */ 
+#submit{
+    margin: 10px auto;
+    background-color: yellow;
+    width:90%;
+}
+@media(max-width:400px){
+    body{
+      width:100%;
+    }
+    header{
+        padding:0;
+        margin: 0 0;
+        width: 100%;
+    }
+    main form{
+        margin: 0 0;
+        padding:1px 0;
+        width: 100%;
+    }
+    main form input, main form label{
+      margin: 5px;
+      padding: 2px;
+    }
+    main form label{
+      font-weight:900;
+    }
+  #dropdown{
+    margin: 0 10px;
+    width:200px;
+  }
+  #textarea{
+    margin:5%;
+  }
+  #submit{
+    width:150px;
+    padding:10px;
+/*     margin: 0 aut; */
+  }
+}
