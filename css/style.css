@@ -41,6 +41,9 @@ main form input,main form label{
     padding-bottom: 10px;
     margin: 10px;
 }
+ #textarea{
+    margin:30px;;
+  }
 /* .radiogroup{
     /* display: flex; */
 /* } */ 
